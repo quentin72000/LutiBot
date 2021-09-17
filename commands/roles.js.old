@@ -1,0 +1,43 @@
+/*
+const Discord = require('discord.js');
+const config = require('../config.json');
+
+
+module.exports = {
+    name: "roles",
+    execute (message) {
+
+        let embed = {
+            title: 'Liste des roles:',
+            description: "Clique sur 📢 pour recevoir le rôle <@&778350208454623232>\n\n "
+                                    + "Clique sur 📊  pour recevoir le rôle <@&778350467969187840>\n\n"
+                                    + "Clique sur 🎉 pour recevoir le role <@&791275467650498560> \n\n"
+          + "__Pour enlever un role clicker sur la reaction j’usqua ce que la reaction soit retiré__",
+          
+          color: config.basicColor
+
+}
+   //   message.channel.send({embed : embed})
+        			//ENVOYE
+        /*
+		const channel = message.client.channels.cache.get("779083445212282920");
+		channel.messages.fetch({
+			limit: 10
+		}).then(messages => {
+			messages.forEach(message => {
+				if(message.id == "791668567225139200")	message.edit({embed: embed});
+			})
+          
+          
+   })
+   */
+      const messageRole = message.channel.messages.cache.get("79166856722513920");
+      messageRole.edit({embed : embed})
+	
+      message.delete()
+      
+}
+
+}
+*/
+

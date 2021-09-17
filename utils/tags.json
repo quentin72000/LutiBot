@@ -1,0 +1,31 @@
+{
+	"lostpass": {
+		"title": "Tu a oublié ton mot de passe pour te connecter ? Pas de soucis ! :",
+		"description": "Contact un administrateur pour qu’il puisse reset ton mdp (__**ouvre un ticket !**__)\n:warning:Une preuve que ton compte t’appartient vraiment peut être demander :warning:",
+		"color": "#8CEF3C"
+	},
+
+	"site": {
+		"title": "Notre site: ",
+		"description": "[Clique ici](https://www.luticorp.cf)",
+		"color": "#061E5C" 
+	},
+	"ip": {
+		"title": "Notre ip: `play.luticorp.cf`",
+		"description": "",
+		"color": "#A72EAE" 
+	},
+	"vote": {
+		"title": "Vous voulez voter pour le serveur ?",
+		"description": "C'est ici que sa se passe: [Clique ici !](https://www.luticorp.cf/vote)"
+	},
+	"wiki": {
+		"title": "Le wiki n'est pas encore disponible.",
+		"description": "Nous vous préviendront lors de sa sortie."
+	},
+	"versions": {
+		"title": "Notre serveur supporte les version de la version 1.8 à la version 1.17 (version recommandé: 1.9.4)",
+		"description": "",
+		"color": "#62D979" 
+	}
+}

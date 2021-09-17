@@ -1,0 +1,44 @@
+{
+   "prefix":"l!",
+   "debug": false,
+   "ip": "YOUR MINECRAFT SERVER IP",
+   "server_name": "YOUR SERVER NAME",
+   "site": "YOUR SITE ADRESS (without 'https://www')'",
+   "site_url": "YOUR SITE COMPLET ADRESS",
+   "token":"YOUR_BOT_TOKEN",
+   "errorColor":"FF0000",
+   "basicColor":"0A9CD4",
+   "separator":"~#~",
+   "inDev": true,
+   "whitelist" : ["YOUR", "WHITELISTED", "USER", "ID"],
+   "testServ":{
+      "id":"YOUR TEST SERVER ID",
+      "channels":{
+         "general":"000000000000000000",
+         "log":"000000000000000000"
+      }
+   },
+   "luti":{
+      "id":"YOUR PRINCIPAL SERVER ID",
+      "channels":{
+         "log":"698231230545788932",
+         "sugg": "698231229673242631"
+      }
+   },
+   "color": {
+     "basic": "0A9CD4",
+     "error": "FF0000"
+  },
+    "db": {
+     "host": "YOUR DB FTOP DATABASE",
+     "port": "YOUR PORT DATABASE",
+     "user": "YOUR USER DATABASE",
+     "password": "YOUR PASSWORD DATABASE",
+     "database": "YOUR DATABASE NAME",
+
+  },
+  "api": {
+     "token": "YOUR MINESTRATOR USER TOKEN",
+     "code": "YOUR SUPPORT CODE OF YOUR SERVER"
+  }
+}

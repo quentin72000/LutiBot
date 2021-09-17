@@ -1,0 +1,17 @@
+const moment = require("moment");
+require("moment-duration-format");
+const discord = require(discord.js)
+
+
+module.exports = {
+    name: 'uptime',
+    execute (message) {
+        
+
+const duration = moment.duration(message.client.uptime).format(" D [days], H [hrs], m [mins], s [secs]");
+
+console.log(duration);
+        const embed = new discord.EmbedMessage
+message.reply('yes !')
+    }
+}
